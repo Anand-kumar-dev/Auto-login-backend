@@ -59,7 +59,7 @@ const resCaptcha  = await detvision("captcha.png")
 
 async function detvision(img) {
   const client = new ImageAnnotatorClient({
-    keyFilename: 'key.json',
+    keyFilename: process.env.GCP_CREDENTIALS,
   });
 
 
