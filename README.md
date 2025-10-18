@@ -1,9 +1,9 @@
-**🤖 UTU Auto-Login Backend**
+** UTU Auto-Login Backend**
 =============================
 
 **Hi there!** This is the backend service that powers the [UTU Auto-Login Chrome Extension](https://www.google.com/search?q=https://github.com/Anand-kumar-dev/utu-student-portal-Auto-login-chrome-extension). It's a smart Node.js application designed to handle the heavy lifting of browser automation, making student portal logins a thing of the past.
 
-**✨ Features**
+** Features**
 --------------
 
 *   **Headless Browser Automation:** Uses **Playwright** to perform login actions on the UTU student portal in a secure, server-side environment.
@@ -17,7 +17,7 @@
 *   **Recursive Retry:** Includes a simple recursive function to automatically retry the login process if the first attempt fails (e.g., due to a CAPTCHA error).
     
 
-**🛠️ Tech Stack**
+** Tech Stack**
 ------------------
 
 This project is built with a modern and powerful set of tools:
@@ -35,7 +35,7 @@ This project is built with a modern and powerful set of tools:
 *   **CORS Handling:** cors
     
 
-**🔌 API Endpoint**
+** API Endpoint**
 -------------------
 
 The server exposes a single, powerful endpoint to handle the login process.
@@ -57,7 +57,7 @@ Upon a successful login, the server responds with a JSON array of the session co
 
 \[  {    "name": "ASP.NET\_SessionId",    "value": "...",    "domain": "app.utu.ac.in",    "path": "/",    ...  },  {    "name": "CustomAuthentication",    "value": "...",    "domain": "app.utu.ac.in",    "path": "/",    ...  }\]
 
-**🚀 Getting Started**
+** Getting Started**
 ----------------------
 
 To get a local copy up and running, follow these simple steps.
@@ -82,7 +82,7 @@ To get a local copy up and running, follow these simple steps.
 4.  **Set up your environment variables** (see Configuration section below).
     
 
-**⚙️ Configuration**
+** Configuration**
 --------------------
 
 This project requires a Google Cloud service account key to use the Vision AI for solving CAPTCHAs.
@@ -94,7 +94,7 @@ This project requires a Google Cloud service account key to use the Vision AI fo
 3.  Make sure the path is correct and that the key.json file is included in your .gitignore to prevent it from being committed to the repository.
     
 
-**🏃 Usage**
+** Usage**
 ------------
 
 You can run the server in two modes:
@@ -104,7 +104,7 @@ You can run the server in two modes:
 *   Production Mode:For a production environment, it's highly recommended to use a process manager like PM2 to keep the application running forever.# 1. Install PM2 globallynpm install -g pm2# 2. Start the applicationpm2 start server.js --name "utu-autologin-api"# 3. (Optional) Make it restart on server rebootpm2 startuppm2 save
     
 
-**📂 Project Structure**
+** Project Structure**
 ------------------------
 
 Here’s a high-level overview of the project's structure:
@@ -120,4 +120,4 @@ Here’s a high-level overview of the project's structure:
 ├── package.json               
 └── server.js                   
 
-**Made with ❤️ by Anand Kumar**
+
